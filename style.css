@@ -1,0 +1,45 @@
+/*body*/
+body
+{ 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #222;
+    /* background: linear-gradient(45deg, #a5a5a5, transparent, #a5a5a5); */
+    background: #2220209c;
+    background-image: url(https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png);
+    background-size: cover;
+}
+#header-title {
+    text-align: center;
+    background-color: #476580;
+    color: white;
+}
+#parent-div {
+    width: 100%;
+    display: inline-block;
+}
+#div-left {
+    width: 250px; 
+    float: left;
+}
+#div-right {
+    width: calc(100% - 250px); 
+    float: right;
+}
+#profile-img{
+    border: 2px solid;
+    padding: 5px;
+}
+#highlight-box {
+    border: 1px solid #DEDEDE;
+    border-radius: 15px;
+    background-color: #bfc781;
+    padding: 5px 25px;
+    color: #000000;
+}
+#page_footer{
+    text-align: center;
+    line-height: 1;
+}
